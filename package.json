@@ -1,6 +1,6 @@
 {
   "name": "@sxcai/quick-print",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "通过iframe打印网页局部内容 use iframe to print html content",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -14,9 +14,9 @@
     "window.print"
   ],
   "author": "sxcai",
-  "repository":{
-    "type" : "git",
-    "url" : "https://github.com/pluscai/quick-print.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluscai/quick-print.git"
   },
   "homepage": "https://github.com/pluscai/quick-print#readme",
   "license": "ISC"
