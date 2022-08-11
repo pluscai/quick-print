@@ -28,7 +28,7 @@ export default function (content, options = {}) {
         ${content}
     `);
 
-    beforePrint && printWindow.addEventListener("beforeprint", beforeprint);
+    beforePrint && printWindow.addEventListener("beforeprint", beforePrint);
 
     printWindow.focus();
     printWindow.print();

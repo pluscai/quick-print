@@ -1,6 +1,11 @@
 ## 通过iframe打印网页局部内容
 
-## 使用方法
+### 安装
+
+`npm i @sxcai/quick-print`
+
+### 使用方法
+
 ```javascript
 import quickPrint from "@sxcai/quick-print";
 quickPrint(document.querySelector("#testPrint").innerHTML, {
